@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+#box-table-a {
+border-collapse: collapse;
+font-family: "Georgia","Lucida Grande",Sans-Serif;
+font-size: 11px;
+margin: 20px;
+text-align: left;
+width: 300px;
+cursor:default;
+}
+#box-table-a th{
+background: none repeat scroll 0 0 #b7ddf2;
+border-bottom: 1px solid #b7ddf2;
+border-top: 4px solid #b7ddf2;
+color:#666666;
+font-size: 13px;
+font-weight:bold;
+padding: 8px;
+}
+#box-table-a td{
+background: none repeat scroll 0 0 #ebf4fe;
+border-bottom: 1px solid #FFFFFF;
+border-top: 1px solid transparent;
+color:#666699;
+padding: 8px;	
+}
+#box-table-a tr:hover td{
+background: none repeat scroll 0 0 #D0DAFD;	
+color: #333;
+}
+
+#tabela_badania{
+height:200px;
+}
